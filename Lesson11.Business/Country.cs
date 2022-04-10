@@ -4,13 +4,14 @@ namespace Lesson11.Business
 {
     public class Country
     {
-        public string CountryCode { get; }
-        public string CountryName { get; }
+        public string Code { get; }
+        public string Name { get; }
+   
 
-        public Country(string countryCode, string countryName)
+        public Country(string code, string name)
         {
-            CountryCode = countryCode;
-            CountryName = countryName;
+            Code = code;
+            Name = name;
         }
     }
 }

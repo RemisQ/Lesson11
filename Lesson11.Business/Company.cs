@@ -8,11 +8,11 @@ namespace Lesson11.Business
 {
     public class Company
     {
-        public string CompanyName { get; }
-        public List<Country>Country { get; }
-        public Company( string companyName, List<Country>country)
+        public string Name { get; }
+        public Country Country { get; }
+        public Company( string name, Country country)
         {
-            CompanyName = companyName;
+            Name = name;
             Country = country;
         }
     }

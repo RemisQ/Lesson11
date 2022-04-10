@@ -6,12 +6,12 @@ using System.Threading.Tasks;
 
 namespace Lesson11.Business
 {
-    public class AirCraft
+    public class Aircraft
     {
         public string TailNumber { get; }
-        public List<Model> Model { get; }
-        public List<Company> Company { get; }
-        public AirCraft(string tailNumber, List<Model>model, List<Company>company)
+        public AircraftModel Model { get; }
+        public Company Company { get; }
+        public Aircraft(string tailNumber, AircraftModel model, Company company)
         {
             TailNumber = tailNumber;
             Model = model;
