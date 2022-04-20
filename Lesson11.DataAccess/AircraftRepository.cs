@@ -5,11 +5,12 @@ namespace Lesson11.DataAccess
 {
     public class AircraftRepository
     {
-        private List<Aircraft> 
+        private Aircraft aircraft { get; } 
 
         public AircraftRepository()
         {
-
+            aircraft = new Aircraft;
+            gfghgfgfgfgfgfgfgf
 
         }
     }

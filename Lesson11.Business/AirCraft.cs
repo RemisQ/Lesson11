@@ -8,10 +8,10 @@ namespace Lesson11.Business
 {
     public class Aircraft
     {
-        public string TailNumber { get; }
+        public int TailNumber { get; }
         public AircraftModel Model { get; }
         public Company Company { get; }
-        public Aircraft(string tailNumber, AircraftModel model, Company company)
+        public Aircraft(int tailNumber, AircraftModel model, Company company)
         {
             TailNumber = tailNumber;
             Model = model;

@@ -6,12 +6,14 @@ namespace Lesson11.Business
     {
         public string Code { get; }
         public string Name { get; }
-   
+        public bool RegistrationCountry { get; }
 
-        public Country(string code, string name)
+
+        public Country(string code, string name, bool registrationCountry)
         {
             Code = code;
             Name = name;
+            RegistrationCountry = registrationCountry;
         }
     }
 }
